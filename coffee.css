@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("https://startbootstrap.github.io/startbootstrap-business-casual/assets/img/bg.jpg");
+    background-attachment: fixed;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.header1{
+    margin: 40px 0 40px 0;
+}
+
+.header1 h2{
+    text-align: center;
+    color: #E6A756;
+}
+
+.header1 h1{
+    text-align: center;
+    margin: 20px 0 10px 0;
+    color: #F6E1C5;
+}
+
+
+.nav{
+    background-color: #311911d5;
+    height: 100px;
+}
+
+.sites{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.sites li{
+    padding: 40px 0 40px 0;
+}
+
+nav a{
+    color: #C0BAB7;
+}
+
+.relative__section{
+    position: relative;
+    
+}
+
+#girl{
+    width: 900px;
+    height: 600px;
+    border-radius: 8px;
+    margin: 40px 200px 30px 500px;
+    position: absolute;
+    
+}
+
+.fresh{
+    background-color: #F6E1C5;
+    color: #212529;
+    width: 500px;
+    height: 200px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 100px;
+}
+
+.fresh h4{
+    margin-top: 10px;
+}
+   
+
+
+.fresh h3{
+    margin-top: 20px;
+}
+
+
+.fresh p {
+    margin-top: 20px;
+}
+
+button{
+    background-color: #E6A756;
+    margin-top: 10px;
+    width: 140px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+button a{
+    color: #212529;
+}
+
+.s1{
+    margin-bottom: 500px;
+}
+
+.background{
+    height: 1000px;
+    width: 100%;
+    background-color: #d39a4fe2;
+    margin: 80px 0 80px 0;
+}
+
+.promise{
+    color: #212529;
+    background-color: #F6E1C5;
+    width: 700px;
+    text-align: center;
+    padding: 50px;
+    margin: 0 0 40px 400px;
+}
+
+footer{
+    height: 100px;
+    color: #F6E1C5;
+    background-color: black;
+    text-align: center;
+    padding-top: 40px;
+}
+
