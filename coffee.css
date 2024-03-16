@@ -5,25 +5,45 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url("https://startbootstrap.github.io/startbootstrap-business-casual/assets/img/bg.jpg");
+    background-image:linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("https://startbootstrap.github.io/startbootstrap-business-casual/assets/img/bg.jpg");
     background-attachment: fixed;
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
+    position: relative;
+    
+}
+.div{
+    background-color: aqua;
+    height: 100%;
+    width: 100%;
 }
 
-.header1{
-    margin: 40px 0 40px 0;
+body::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+    z-index: -1;
+}
+
+header{
+    height: 100%;
 }
 
 .header1 h2{
     text-align: center;
     color: #E6A756;
+    padding-top: 60px;
+   
 }
 
 .header1 h1{
     text-align: center;
-    margin: 20px 0 10px 0;
     color: #F6E1C5;
+    font-weight: 100;
+    font-size: 80px;
+    padding: 6px 0 60px 0 ;
 }
 
 
@@ -46,55 +66,66 @@ body{
 
 nav a{
     color: #C0BAB7;
+    font-weight: 800;
 }
 
-.relative__section{
+.relative_section{
     position: relative;
-    
+    padding-right: 200px;
 }
 
 #girl{
-    width: 900px;
-    height: 600px;
-    border-radius: 8px;
-    margin: 40px 200px 30px 500px;
-    position: absolute;
+    object-fit: cover;
+    width: 100%;
+}
+
+.girl{
+    width: 837px;
+    height: 558px;
+    margin: 80px 100px 0 600px;
+    overflow: hidden;
     
 }
 
 .fresh{
     background-color: #F6E1C5;
     color: #212529;
-    width: 500px;
-    height: 200px;
-    padding: 5px;
+    width: 600px;
+    height: 340px;
+    padding: 50px 40px;
     text-align: center;
     border-radius: 10px;
     position: absolute;
-    bottom: 0;
-    left: 100px;
+    top: 50px;
+    left: 200px;
 }
 
 .fresh h4{
     margin-top: 10px;
+    font-size: 16px;
+    font-weight: 800;
 }
    
 
 
 .fresh h3{
     margin-top: 20px;
+    font-size: 48px;
+    font-weight: 100;
 }
 
 
 .fresh p {
     margin-top: 20px;
+    font-size: 16px;
+    font-weight: 400
 }
 
 button{
     background-color: #E6A756;
-    margin-top: 10px;
-    width: 140px;
-    height: 50px;
+    margin-top: 70px;
+    width: 160px;
+    height: 80px;
     border-radius: 10px;
 }
 
@@ -103,14 +134,17 @@ button a{
 }
 
 .s1{
-    margin-bottom: 500px;
+    margin-bottom: 80px;
 }
 
 .background{
-    height: 1000px;
     width: 100%;
     background-color: #d39a4fe2;
-    margin: 80px 0 80px 0;
+    padding: 5rem 0;
+    margin: 5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .promise{
@@ -119,7 +153,8 @@ button a{
     width: 700px;
     text-align: center;
     padding: 50px;
-    margin: 0 0 40px 400px;
+    outline: 3px solid #E5AC63;
+    outline-offset: 5px;
 }
 
 footer{
